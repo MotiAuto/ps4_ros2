@@ -1,0 +1,15 @@
+[package]
+name = "ps4_ros2"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = "1.12.0"
+safe_drive = "0.3.5"
+dualshock-driver = {git = "https://github.com/motii8128/dualshock-driver.git"}
+ros2_rust_util = {git = "https://github.com/TakanoTaiga/ros2_rust_util.git"}
+
+[package.metadata.ros]
+safe_drive_version = "0.3.5"
